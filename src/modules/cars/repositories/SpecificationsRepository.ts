@@ -1,10 +1,10 @@
 import { Specification } from "../model/Specification";
 import {
-  ISpecificationRepository,
+  ISpecificationsRepository,
   ICreateSpecificationDTO,
-} from "./ISpecificationRepository";
+} from "./ISpecificationsRepository";
 
-class SpecificationRepository implements ISpecificationRepository {
+class SpecificationsRepository implements ISpecificationsRepository {
   private specifications: Specification[];
 
   constructor() {
@@ -31,4 +31,4 @@ class SpecificationRepository implements ISpecificationRepository {
   }
 }
 
-export { SpecificationRepository };
+export { SpecificationsRepository };
