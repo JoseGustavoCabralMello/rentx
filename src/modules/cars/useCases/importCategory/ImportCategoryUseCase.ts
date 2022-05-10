@@ -1,9 +1,7 @@
-
-
 class ImportCategoryUseCase {
-    execute(file: any){
-        console.log(file);
-    }
+  execute(file: Express.Multer.File): void {
+    console.log(file);
+  }
 }
 
-export { ImportCategoryUseCase }
+export { ImportCategoryUseCase };
