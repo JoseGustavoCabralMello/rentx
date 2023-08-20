@@ -19,9 +19,9 @@ services:
     volumes:
       - .:/usr/app
     links:
-    - database
+      - database
     depends_on: 
-    - database
+      - database
 volumes:
   pgdata:
     driver: local
